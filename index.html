@@ -10285,6 +10285,7 @@
                 // 🔍 DEBUG: Verificar se scroll spy está habilitado
                 if (!scrollSpyEnabled) {
                     debugLog('🚫 updateScrollSpy: BLOQUEADO (scrollSpyEnabled = false)');
+                    ticking = false;
                     return;
                 }
                 
